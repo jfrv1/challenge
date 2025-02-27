@@ -7,9 +7,9 @@ function limpiarEspacio() {
 }
 
 function agregarAmigo() {
-    let amigo = document.getElementById("amigo").value.trim();
-    if (amigo === "") {
-        alert("Debe ingresar un nombre");
+    let nombreAmigo = document.getElementById("amigo").value
+    if (nombreAmigo === "") {
+        alert("Por favor, inserte un nombre");
         return;
     } 
 }
