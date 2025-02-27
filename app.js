@@ -69,10 +69,10 @@ function sortearAmigo() {
     amigos = [];
     actualizarLista();  //limpia la lista en el HTML
 
-    //limpiar el resultado despues de 2 segundos 
+    //limpiar el resultado despues de 5 segundos 
     setTimeout(() => {
         resultado.innerHTML = " ";
-    }, 2000);   //2000 milisegundos = 2 segundos
+    }, 5000);   //5000 milisegundos = 5 segundos
 }
 
 //capturar el keydown de la tecla Enter y simula un click en el boton agregar
