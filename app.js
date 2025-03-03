@@ -68,7 +68,7 @@ function sortearAmigo() {
     resultado.innerHTML = `<li>${amigoSorteado}</li>`;
 
 //esta funcion deberia lanzar confeti
-    //lanzarConfeti();
+    lanzarConfeti();
 
     // Reiniciar la lista de amigos después del sorteo
     amigos = [];
@@ -88,10 +88,10 @@ document.addEventListener('keydown', function(event) {
 });
 
 // Función para lanzar confeti
-//function lanzarConfeti() {
-    //confetti({
-      //  particleCount: 200,  // Cantidad de confeti
-        //spread: 70,          // Ángulo de dispersión
-        //origin: { y: 0.6 }   // Punto de origen (más arriba en la pantalla)
-//});
-//}
+ function lanzarConfeti() {
+    confetti({
+      particleCount: 200,  // Cantidad de confeti
+      spread: 70,          // Ángulo de dispersión
+      origin: { y: 0.6 }   // Punto de origen (más arriba en la pantalla)
+});
+}
