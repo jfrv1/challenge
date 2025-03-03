@@ -77,7 +77,7 @@ function sortearAmigo() {
     //LIMPIAR EL RESULTADO DESPUÉS DE 5 SEGUNDOS
     setTimeout(() => {
         resultado.innerHTML = ""; 
-    }, 5000);
+    }, 2000);
 }
 
 //Agraga un evento de escuchar las teclas y cuando se presiona Enter se ejecuta el boton 
