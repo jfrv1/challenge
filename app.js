@@ -74,10 +74,10 @@ function sortearAmigo() {
     amigos = [];
     actualizarLista(); // Limpiar la lista en el HTML
 
-    //LIMPIAR EL RESULTADO DESPUÉS DE 5 SEGUNDOS
+    //LIMPIAR EL RESULTADO DESPUÉS DE 4 SEGUNDOS
     setTimeout(() => {
         resultado.innerHTML = ""; 
-    }, 2000);
+    }, 4000);
 }
 
 //Agraga un evento de escuchar las teclas y cuando se presiona Enter se ejecuta el boton 
