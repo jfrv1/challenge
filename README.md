@@ -18,6 +18,7 @@ Este es un pequeño proyecto en JavaScript que permite agregar nombres a una lis
 	•	JavaScript
 	•	Canvas Confetti
 📦 Instalación y uso
+	
 	1.	Clona este repositorio o descarga los archivos.
 
         2.	Abre el archivo index.html en tu navegador.
