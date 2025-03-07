@@ -20,7 +20,7 @@ Este es un pequeño proyecto en JavaScript que permite agregar nombres a una lis
 📦 Instalación y uso
 	1.	Clona este repositorio o descarga los archivos.
 
-           2.	Abre el archivo index.html en tu navegador.
+        2.	Abre el archivo index.html en tu navegador.
 
 	3.	Agrega nombres y presiona el botón de sortear para elegir un ganador.
 
@@ -39,7 +39,4 @@ Asegúrate de incluir la biblioteca Canvas Confetti en tu proyecto agregando el 
 
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, siéntete libre de hacer un fork y enviar un pull request.
 
-📜 Licencia
-
-Este proyecto se distribuye bajo la licencia MIT.
 
